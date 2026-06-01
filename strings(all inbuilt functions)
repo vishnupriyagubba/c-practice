@@ -1,0 +1,73 @@
+#include<iostream>
+#include<string>
+using namespace std;
+int main(){
+    // different types to declare a string
+    // 1.
+    string str;
+    // cin>>str;
+    // cout<<str<<endl;
+    // 2.
+    // string str1(5,'n');
+    // cout<<str1<<endl;
+    // 3.
+    //    string str2="hello world";
+    //     cout<<str2<<endl; 
+    // to take input of a string with spaces
+    // string str3;
+    // getline(cin,str3);// if we only use cin then it will print only the first word and ignore the rest of the string but with getline it will take the whole line as input
+    // cout<<str3<<endl;
+    // append two strings
+    // string s1="hello";
+    // string s2="world";
+    // string s3=s1+" "+s2;// we can also use s1.append(s2) to append s2 to s1
+    // cout<<s3<<endl;//s1
+    // //to acess a particular character in a string
+    // cout<<s3[1]<<endl;//e
+    //clear
+    // string abc="hello";
+    // abc.clear();
+    // cout<<abc<<endl;
+    // it will print nothing because the string is cleared
+    // string s1="abc";
+    // string s2="xyz";
+    // cout<<s1.compare(s2)<<endl;// it will return a positive number because s2 is greater than s1
+    // to check if string is empty or not
+    // string s1="abc";
+    // cout<<s1.empty()<<endl;// it will return 0 because the string is not empty
+    // erase(to delete group of elements from a string)
+    // string s1="hello world";
+    // s1.erase(5,5);// it will delete 5 characters starting from index 5
+    // cout<<s1<<endl;// it will print "hello "
+    // to find part of a string
+    // string s1="hello world";
+    // cout<<s1.find("world")<<endl;// it will return the index of the first occurrence of the substring "world" which is 6
+    // to insert a string into another string
+    // string s1="hello world";
+    // s1.insert(5," beautiful");// it will insert the string " beautiful" at index 5
+    // cout<<s1<<endl;// it will print "hello beautiful world"
+    // to get the length of a string
+    // string s1="hello world";
+    // cout<<s1.length()<<endl;// it will return the length of the string which is 11
+    // cout<<s1.size()<<endl;// it will also return the length of the string which is 11
+    // to get a substring of a string
+    // string s1="hello world";
+    // string s2=s1.substr(6,5);// it will return a substring of s1 starting from index 6 and of length 5 which is "world"
+    // cout<<s2<<endl;// it will print "world"
+    // to convert a string to an integer
+    // string s1="123";
+    // int num=stoi(s1);// it will convert the string s1 to an integer
+    // cout<<num+2<<endl;// it will print 125
+    // to convert an integer to a string
+    // int num=123;
+    // string s1=to_string(num);// it will convert the integer num to a string
+    // cout<<s1+"45"<<endl;// it will print "12345"
+    // to sort a string
+    // string s1="hello";
+    // sort(s1.begin(),s1.end());// it will sort the string in ascending order  
+    // cout<<s1<<endl;// it will print "ehllo"
+
+
+
+    return 0;
+}
