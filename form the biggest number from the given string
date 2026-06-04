@@ -1,0 +1,11 @@
+// form the biggest number from the given string
+#include<iostream>
+#include<string>
+#include<algorithm>
+using namespace std;
+int main(){
+    string s="12867392845";
+    sort(s.begin(),s.end(),greater<int>());
+    cout<<s<<endl;// it will print "988766543221"
+     return 0;
+}
